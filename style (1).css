@@ -1,0 +1,17 @@
+#button{
+  transition: font-size 3s, color 2s;
+}
+#number{
+  display: inline-block;
+}
+#close{
+  width: 30px;
+  font: 29px monospace;
+  overflow: hidden;
+}
+#number.animate{
+  transform: translate(-90%);
+  transition-property: transform;
+  transition-duration: 10s;
+  transition-timing-function: linear;
+}
